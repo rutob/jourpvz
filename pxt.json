@@ -1,0 +1,29 @@
+{
+    "name": "jourPvZ",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "Sprite Grid": "github:microsoft/arcade-grid#v1.3.0",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.2.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.12.46",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
